@@ -15,7 +15,7 @@ export default defineConfig(({ command, mode }) => {
             preprocessorOptions: {
                 scss: {
                     charset: false,
-                    additionalData: `@import "~/styles/var.scss";`,
+                    additionalData: `@import "~/styles/index.scss";`,
                 },
             },
         },
