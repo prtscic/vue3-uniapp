@@ -32,7 +32,6 @@
         "build:quickapp-webview-union": "uni build -p quickapp-webview-union",
         "lint": "eslint src --fix --ext .ts,.tsx,.vue,.js,.jsx",
         "prettier": "prettier --write .",
-        "prepare": "husky install",
         "commit:comment": "引导设置规范化的提交信息",
         "commit": "git-cz"
     },
